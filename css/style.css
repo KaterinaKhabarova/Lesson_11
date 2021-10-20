@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+.position-example {
+   max-width: 1600px;
+   font-size: 20px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   padding: 300px 0px 0px 50px;
+   background-color: rgb(212, 207, 207);
+}
+.position-example h6 {
+   font-size: 30px;
+}
+.block-example {
+   padding: 50px 0px 50px 50px;
+}
+.position-example__static {
+   background-color: lightgreen;
+   position: static;
+}
+.position-example__relative {
+   background-color: lightpink;
+   position: relative;
+   left: 100px;
+   top: 20px;
+}
+.position-example__absolute {
+   background-color: rgba(32, 178, 171, 0.63);
+   position: absolute;
+   top: 500px;
+   left: 500px;
+}
+.position-example__fixed {
+   background-color: rgba(176, 196, 222, 0.466);
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+.position-example__sticky {
+   background-color: lightyellow;
+   position: sticky;
+   top: 0;
+   z-index: 3;
+}
+.position-example__z-index {
+   background-color: lavender;
+   position: relative;
+   top: 0;
+   right: 60px;
+   z-index: 100;
+}
+.position-example__list {
+   background-color: rgb(194, 218, 158);
+   margin: 50px 0px 50px 50px;
+   font-size: 30px;
+}
+.list-item {
+   z-index: 0;
+   position: relative;
+   padding: 0px 0px 0px 25px;
+}
+.list-item li::before {
+   background-image: url(../img/overline_mark.svg);
+   background-repeat: no-repeat;
+   content: "";
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 5px;
+}
+.block-example p:first-of-type {
+   margin-bottom: 20px;
+}
+.dog-block {
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   margin-top: 100px;
+   background-color: #f5f5f5;
+   max-width: 1440px;
+   min-height: 1500px;
+   padding: 200px 210px 50px 195px;
+   background-image: url(../img/background_image.png);
+   background-position: 0 -500px;
+   background-repeat: no-repeat;
+}
+.header {
+   width: 583px;
+   display: inline-block;
+}
+.header__title {
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   align-items: center;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background-image: url(../img/overline_mark2.svg);
+   background-repeat: no-repeat;
+   padding-left: 33px;
+}
+.header__subtitle {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #ffffff;
+}
+.dog-block__header {
+   margin-bottom: 36px;
+}
+.dog-block__content {
+   padding: 100px 350px 0px 87px;
+   background-color: #5d62b5;
+   max-width: 1034px;
+   height: 700px;
+   background-image: url(../img/blob.png);
+   background-repeat: no-repeat;
+   background-position: 10px 260px;
+   border-radius: 30px;
+   position: relative;
+}
+.dog-block__paragraph {
+   width: 846px;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #f5f5f5;
+   margin-bottom: 54px;
+}
+.header__title h6:first-of-type {
+   margin-bottom: 33px;
+}
+.circles_image {
+   position: absolute;
+   top: -110px;
+   right: -110px;
+}

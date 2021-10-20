@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="css/null.css">
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lesson 11</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <main>
+         <div class="position-example">
+            <div class="position-example__static block-example">
+               <h6 class="block-example__heading">Static</h6>
+               <p class="block-example__paragraph">Элементы отображаются как обычно. Использование свойств left, top,
+                  right и bottom не приводит к
+                  каким-либо результатам.</p>
+            </div>
+            <div class="position-example__relative block-example">
+               <h6 class="block-example__heading">Relative</h6>
+               <p class="block-example__paragraph">Положение элемента устанавливается относительно его исходного места.
+                  Добавление свойств left, top,
+                  right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального
+                  расположения.</p>
+            </div>
+            <div class="position-example__absolute block-example">
+               <h6 class="block-example__heading">Absolute</h6>
+               <p class="block-example__paragraph">Указывает, что элемент абсолютно позиционирован, при этом другие
+                  элементы отображаются на веб-странице
+                  словно абсолютно позиционированного элемента и нет. Положение элемента задается свойствами left, top,
+                  right и bottom, также на положение влияет значение свойства position родительского элемента. Так, если
+                  у родителя значение position установлено как static или родителя нет, то отсчет координат ведется от
+                  края окна браузера. Если у родителя значение position задано как fixed, relative или absolute, то
+                  отсчет координат ведется от края родительского элемента.</p>
+            </div>
+            <div class="position-example__fixed block-example">
+               <h6 class="block-example__heading">Fixed</h6>
+               <p class="block-example__paragraph">По своему действию это значение близко к absolute, но в отличие от
+                  него привязывается к указанной
+                  свойствами left, top, right и bottom точке на экране и не меняет своего положения при прокрутке
+                  веб-страницы. Браузер Firefox вообще не отображает полосы прокрутки, если положение элемента задано
+                  фиксированным, и оно не помещается целиком в окно браузера. В браузере Opera хотя и показываются
+                  полосы прокрутки, но они никак не влияют на позицию элемента.</p>
+            </div>
+            <div class="position-example__sticky block-example">
+               <h6 class="block-example__heading">Sticky</h6>
+               <p class="block-example__paragraph">Элемент будет становиться плавающим, как только область видимости
+                  достигнет определённой позиции.</p>
+            </div>
+            <div class="position-example__z-index block-example">
+               <h6 class="block-example__heading">z-index</h6>
+               <p>Свойство z-index определяет положение элемента и нижестоящих элементов по оси z. В случае перекрытия
+                  элементов, это значение определяет порядок наложения. В общем случае, элементы с большим z-index
+                  перекрывают элементы с меньшим.</p>
+            </div>
+            <div class="position-example__list">
+               <ul class="position-example__list list-item">
+                  <li class="list-item__item">Lorem</li>
+                  <li class="list-item__item">Lorem</li>
+                  <li>Lorem</li>
+                  <li>Lorem</li>
+                  <li>Lorem</li>
+               </ul>
+            </div>
+            <div class="content-lorem">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus. Lorem ipsum dolor
+               sit amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus. Lorem ipsum dolor
+               sit amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus. Lorem ipsum dolor
+               sit amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus. Lorem ipsum dolor
+               sit amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.Lorem ipsum dolor sit
+               amet consectetur adipisicing elit. Modi facilis quasi voluptatum voluptas nostrum
+               at est, facere, numquam odio iste et ut a ipsum cum quis ipsa possimus hic delectus.
+            </div>
+         </div>
+         <div class="dog-block">
+            <div class="dog-block__content">
+               <div class="dog-block__header header">
+                  <div class="header__title">
+                     <h6>Who we are</h6>
+                  </div>
+                  <div class="header__subtitle">
+                     <h2>Nemo enim ipsam voluptatem quia voluptas in proident</h2>
+                  </div>
+               </div>
+               <div class="circles_image"><img src="./img/circles.svg" alt="circles"></div>
+               <p class="dog-block__paragraph">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                  suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit
+                  qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+                  voluptas nulla pariatur.</p>
+                  <div class="dog-block__image"><img src="./img/dog_photo.png" alt="dog"></div>
+            </div>
+         </div>
+      </main>
+   </div>
+</body>
+
+</html>
